@@ -6,7 +6,7 @@ phases:
   install:
     commands:
       - cd /tmp
-      - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}_Linux-64bit.tar.gz
+      - wget https://github.com/gohugoio/hugo/releases/download/v0.112.5/hugo_0.112.5_Linux-64bit.tar.gz
       - tar -xzf hugo_${Hugo_Version}_Linux-64bit.tar.gz
       - mv hugo /usr/bin/hugo
       - cd
